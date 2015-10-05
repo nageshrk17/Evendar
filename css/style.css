@@ -1,0 +1,198 @@
+/*---------NAVI BAR--------------*/
+
+.nav-hold {
+    width: 100%;
+    max-width: 1350px;
+    overflow: hidden;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #484743;
+}
+
+.nav-logo {
+    float: left;
+    color: #f9f9f9;
+    font-size: 16px;
+    margin-left: 60px;
+   /* margin-top: 25px;*/
+}
+
+.nav-list {
+    float: right;
+    margin-top: 15px;
+    margin-right: 90px;
+}
+
+.nav-list li {
+    float: left;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.nav-list li a {
+    margin-left: 20px;
+    padding: 10px 10px;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-list li a:hover {
+    color: #898989;
+    padding: 10px 10px;
+    border: 2px solid #898989;
+}
+
+.ellipse {
+    float: left;
+    margin-left: -10px;
+}
+
+.content {
+    width: 85%;
+    float: right;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.ellipse1 {
+    width: 77px;
+    height: 77px;
+    margin-top: 50px;
+    opacity: 0.5;
+    -webkit-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    -moz-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    background-color: #1b1745;
+}
+
+.ellipse2 {
+    width: 77px;
+    height: 77px;
+    margin-top: -60px;
+    margin-left: 40px;
+    opacity: 0.5;
+    -webkit-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    -moz-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    background-color: #c32732;
+}
+
+.ellipse3 {
+    width: 77px;
+    height: 77px;
+    margin-top: -50px;
+    opacity: 0.5;
+    -webkit-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    -moz-border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    border-radius: 38px 39px 39px 38px/38px 38px 39px 39px;
+    background-color: #d9bc1e;
+}
+
+h1 {
+    font-family: "Myriad Pro";
+    color: #6a6b6b;
+}
+
+p {
+    font-family: "Segoe UI";
+    font-size: 24px;
+    color: #6a6b6b;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+a {
+    color: #c32732;
+}
+
+.wrap {
+    width: 100%;
+    margin-top: 20px;
+    height: 120px;
+    border-top: 10px solid #737373;
+    background-color: #000000;
+}
+
+.footer-list1 {
+    float: left;
+    margin-top: 30px;
+}
+
+.footer-list1 li {
+    list-style-type: none;
+}
+
+.footer-list1 li a {
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+.footer-list1 li a:hover {
+    color: #b8b8b8;
+    transition: all 0.4s linear;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 100%;
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
+
+.social {
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.social li {
+    list-style-type: none;
+}
+
+.social li a {
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    background-color: #5f7cb6;
+}
+
+.footer-list2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.footer-list2 li {
+    list-style-type: none;
+}
+
+.footer-list2 li a {
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+.footer-list2 li a:hover {
+    color: #b8b8b8;
+    transition: all 0.4s linear;
+}

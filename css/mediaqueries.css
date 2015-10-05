@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* Tablet */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .content {
+        float: left;
+        margin-top: 110px;
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+/* Phone */
+
+/*@media screen and (max-width: 767px) {
+   .container h1{
+    float:left;
+   }
+   .container p{
+    float:left;
+    padding-right: 20px;
+   }
+}
+*/
